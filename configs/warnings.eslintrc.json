@@ -6,22 +6,19 @@
       "1tbs"
     ],
     "comma-dangle": "warn",
-    "indent": [
+    "indent":"off",
+    "@typescript-eslint/indent": [
       "warn",
       4,
       {
         "SwitchCase": 1
       }
     ],
+    "import/no-named-as-default-member": "off",
     "no-invalid-this": "warn",
     "no-new-wrappers": "warn",
     "no-return-await": "warn",
-    "no-shadow": [
-      "warn",
-      {
-        "hoist": "all"
-      }
-    ],
+    "no-shadow": "off",
     "no-trailing-spaces": "warn",
     "no-void": "warn",
     "prefer-const": [

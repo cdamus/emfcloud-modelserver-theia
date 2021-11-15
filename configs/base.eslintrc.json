@@ -11,7 +11,8 @@
     "@typescript-eslint",
     "header",
     "import",
-    "no-null"
+    "no-null",
+    "chai-friendly"
   ],
   "extends": [
     "eslint:recommended",
@@ -20,6 +21,7 @@
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript"
+
   ],
   "env": {
     "browser": true,

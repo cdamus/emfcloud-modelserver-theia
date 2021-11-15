@@ -2,9 +2,9 @@ node_modules
 .browser_modules
 lib
 *.log
-example/*-app/*
-!example/*-app/package.json
-
-example/coffee-theia/build/*\.jar
+examples/*-app/*
+!examples/*-app/package.json
+!examples/*-app/webpack.config.json
+examples/coffee-theia/build/*\.jar
 
 plugins
